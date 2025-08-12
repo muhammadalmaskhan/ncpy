@@ -12,7 +12,7 @@ setup(
     description="A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ncpy",  # change to your actual repo
+    url="https://github.com/muhammadalmaskhan/ncpy",  # change to your actual repo
     packages=find_packages(),
     install_requires=["numpy", "scipy"],
     python_requires=">=3.6",
