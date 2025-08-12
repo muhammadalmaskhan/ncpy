@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+ncpy/__init__.py
+ncpy.egg-info/PKG-INFO
+ncpy.egg-info/SOURCES.txt
+ncpy.egg-info/dependency_links.txt
+ncpy.egg-info/requires.txt
+ncpy.egg-info/top_level.txt
