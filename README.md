@@ -1,12 +1,17 @@
 # ncpy
-
-[![PyPI Version](https://img.shields.io/pypi/v/ncpy.svg)](https://pypi.org/project/ncpy/)
-[![License](https://img.shields.io/pypi/l/ncpy.svg)](https://github.com/yourusername/ncpy/blob/main/LICENSE)
-[![Downloads](https://static.pepy.tech/badge/ncpy)](https://pepy.tech/project/ncpy)
+<p align="center">
+  <a href="https://pypi.org/project/ncpy/"><img src="https://img.shields.io/pypi/v/ncpy.svg" alt="PyPI Version"></a>
+  <a href="https://github.com/muhammadalmaskhan/ncpy/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/ncpy.svg" alt="License"></a>
+  <a href="https://pepy.tech/project/ncpy"><img src="https://static.pepy.tech/badge/ncpy" alt="Downloads"></a>
+  <a href="https://pypi.org/project/ncpy/"><img src="https://img.shields.io/pypi/pyversions/ncpy.svg" alt="Python Versions"></a>
+  <a href="https://github.com/muhammadalmaskhan/ncpy/stargazers"><img src="https://img.shields.io/github/stars/muhammadalmaskhan/ncpy?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/muhammadalmaskhan/ncpy/commits/main"><img src="https://img.shields.io/github/last-commit/muhammadalmaskhan/ncpy.svg" alt="Last Commit"></a>
+  <a href="https://github.com/muhammadalmaskhan/ncpy/issues"><img src="https://img.shields.io/github/issues/muhammadalmaskhan/ncpy.svg" alt="Open Issues"></a>
+</p>
 
 **ncpy** — Numerical Computing in Python.
 
-`ncpy` is a compact, educational Python library that implements common numerical methods for courses, assignments, and quick prototyping.  
+`ncpy` is a compact, educational Python library that implements common numerical methods for quick prototyping and expermentations.  
 Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions for:
 
 - Root finding  
