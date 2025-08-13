@@ -40,7 +40,7 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 
 ---
 ---
-## Example
+## Examples
 
 - Root finding - Newton Raphson
 ---
@@ -60,6 +60,15 @@ from ncpy import lagrange_interpolation
 x_points = [0, 1, 2]
 y_points = [1, 3, 2]
 print(lagrange_interpolation(x_points, y_points, 1.5))
+
+
+- Numerical Integration — Simpson's 1/3 Rule
+
+from ncpy import simpson13
+import math
+
+area = simpson13(math.sin, 0, math.pi, n=100)
+print(area)  # ~2.0
 
 
 --- 
