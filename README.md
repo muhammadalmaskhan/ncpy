@@ -52,6 +52,16 @@ df = lambda x: 2*x
 root = newton_raphson(f, df, x0=1.0)
 print("Root:", root)  # ~1.4142
 
+
+- Interpolation — Lagrange
+
+from ncpy import lagrange_interpolation
+
+x_points = [0, 1, 2]
+y_points = [1, 3, 2]
+print(lagrange_interpolation(x_points, y_points, 1.5))
+
+
 --- 
 ## 📦 Installation
 
