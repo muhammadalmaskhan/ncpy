@@ -6,7 +6,7 @@ long_description = (this_dir / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="ncpy",
-    version="0.1.9",
+    version="0.2.0",
     author="M. Almas",
     author_email="mkhan@cs.qau.edu.pk",
     description="A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.",
