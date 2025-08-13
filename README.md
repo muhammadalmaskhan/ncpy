@@ -45,36 +45,41 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 - Root finding - Newton Raphson
 ---
 from ncpy import newton_raphson
-
+```bash
 f = lambda x: x**2 - 2
 df = lambda x: 2*x
 
 root = newton_raphson(f, df, x0=1.0)
 print("Root:", root)  # ~1.4142
 
-
+```
 - Interpolation — Lagrange
-
+```bash
 from ncpy import lagrange_interpolation
 
 x_points = [0, 1, 2]
 y_points = [1, 3, 2]
 print(lagrange_interpolation(x_points, y_points, 1.5))
 
-
+```
 - Numerical Integration — Simpson's 1/3 Rule
-
+```bash
 from ncpy import simpson13
 import math
 
 area = simpson13(math.sin, 0, math.pi, n=100)
 print(area)  # ~2.0
-
+```
 
 --- 
 ## 📦 Installation
 
 ```bash
 pip install ncpy
+```
+---
+
 
  
+## 📍 Visitors
+<a href="https://clustrmaps.com/site/1c7ls" title="ClustrMaps"> <img src="https://www.clustrmaps.com/map_v2.png?d=GL51q-0KRQlIUM81XiBM7GahOkVrKk88t7NjiXWTcaI&cl=ffffff" /> </a> ```
