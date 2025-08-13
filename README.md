@@ -44,13 +44,13 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 | **Linear Systems**     | Gaussian elimination, Gauss–Jordan, LU decomposition, Jacobi, Gauss–Seidel, Conjugate Gradient |
 
 ---
----
 ## Examples
+---
 
 - Root finding - Newton Raphson
----
-from ncpy import newton_raphson
 ```bash
+from ncpy import newton_raphson
+
 f = lambda x: x**2 - 2
 df = lambda x: 2*x
 
@@ -59,6 +59,7 @@ print("Root:", root)  # ~1.4142
 
 ```
 - Interpolation — Lagrange
+
 ```bash
 from ncpy import lagrange_interpolation
 
@@ -68,6 +69,7 @@ print(lagrange_interpolation(x_points, y_points, 1.5))
 
 ```
 - Numerical Integration — Simpson's 1/3 Rule
+
 ```bash
 from ncpy import simpson13
 import math
