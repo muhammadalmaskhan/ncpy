@@ -4,6 +4,12 @@ README.md
 pyproject.toml
 setup.py
 ncpy/__init__.py
+ncpy/approximation.py
+ncpy/differentiation.py
+ncpy/integration.py
+ncpy/interpolation.py
+ncpy/linear_systems.py
+ncpy/root_finding.py
 ncpy.egg-info/PKG-INFO
 ncpy.egg-info/SOURCES.txt
 ncpy.egg-info/dependency_links.txt

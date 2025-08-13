@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: ncpy
-Version: 0.1.5
+Version: 0.1.7
 Summary: A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.
 Home-page: https://github.com/muhammadalmaskhan/ncpy
 Author: M. Almas
@@ -36,34 +36,56 @@ Dynamic: summary
 
 **ncpy** — Numerical Computing in Python.
 
-`ncpy` is a compact, educational Python library that implements common numerical methods for courses and quick prototyping.  
-It is built on top of **NumPy** and (optionally) **SciPy**, and provides easy-to-use functions for root finding, interpolation, approximation, integration, differentiation, and solving linear systems.
+`ncpy` is a compact, educational Python library that implements common numerical methods for courses, assignments, and quick prototyping.  
+Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions for:
+
+- Root finding  
+- Interpolation  
+- Curve fitting / Approximation  
+- Numerical integration  
+- Numerical differentiation  
+- Solving linear systems  
 
 ---
 
-## ✨ Features
+## Why use `ncpy`?
 
-- **Root-finding**: Bisection, Newton–Raphson, Secant, Fixed-point iteration  
-- **Interpolation**: Lagrange, Newton divided differences, Linear, Cubic spline, Neville’s method  
-- **Approximation / Curve fitting**: Polynomial least squares, Exponential fit, Logarithmic fit  
-- **Numerical integration**: Trapezoidal, Simpson 1/3, Simpson 3/8, Romberg, Gaussian quadrature  
-- **Numerical differentiation**: Forward, Backward, Central differences, Richardson extrapolation, Numerical gradient  
-- **Linear systems**: Gaussian elimination, Gauss–Jordan, LU decomposition, Jacobi, Gauss–Seidel, Conjugate Gradient
+✅ **One package, many methods** — no need to import multiple libraries  
+✅ **Lightweight & beginner-friendly** — great for teaching & learning numerical methods  
+✅ **Educational** — functions are implemented clearly for understanding algorithms  
+✅ **Fast enough** — powered by NumPy for efficiency  
 
 ---
-## Quick Example
-from ncpy import roots
 
-### Example: Newton–Raphson method
+## ✨ Features Overview
+
+| Category               | Methods |
+|------------------------|---------|
+| **Root-finding**       | Bisection, Newton–Raphson, Secant, Fixed-point iteration |
+| **Interpolation**      | Lagrange, Newton divided differences, Linear, Cubic spline, Neville’s method |
+| **Approximation**      | Polynomial least squares, Exponential fit, Logarithmic fit |
+| **Integration**        | Trapezoidal, Simpson 1/3, Simpson 3/8, Romberg, Gaussian quadrature |
+| **Differentiation**    | Forward, Backward, Central differences, Richardson extrapolation, Numerical gradient |
+| **Linear Systems**     | Gaussian elimination, Gauss–Jordan, LU decomposition, Jacobi, Gauss–Seidel, Conjugate Gradient |
+
+---
+---
+## Example
+
+- Root finding - Newton Raphson
+---
+from ncpy import newton_raphson
+
 f = lambda x: x**2 - 2
 df = lambda x: 2*x
 
-root = roots.newton_raphson(f, df, x0=1.0)
-print("Root:", root)
+root = newton_raphson(f, df, x0=1.0)
+print("Root:", root)  # ~1.4142
 
----
-
+--- 
 ## 📦 Installation
 
 ```bash
 pip install ncpy
+
+ 
