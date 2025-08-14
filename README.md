@@ -42,7 +42,7 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 | **Integration**        | Trapezoidal, Simpson 1/3, Simpson 3/8, Romberg, Gaussian quadrature |
 | **Differentiation**    | Forward, Backward, Central differences, Richardson extrapolation, Numerical gradient |
 | **Linear Systems**     | Gaussian elimination, Gauss–Jordan, LU decomposition, Jacobi, Gauss–Seidel, Conjugate Gradient |
-
+| **Best Approximations**| Least Squares, Gram–Schmidt Orthonormalization |
 ---
 ## Examples
 ---
