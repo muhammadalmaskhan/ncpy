@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: ncpy
 Version: 0.2.1
-Summary: A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.
+Summary: A Python package for numerical computing built on top of the numpy and scipy, including root-finding, interpolation, integration, differentiation, and linear system solvers.
 Home-page: https://github.com/muhammadalmaskhan/ncpy
 Author: M. Almas
 Author-email: mkhan@cs.qau.edu.pk
