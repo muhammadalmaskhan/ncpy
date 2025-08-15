@@ -13,7 +13,6 @@ Classifier: Intended Audience :: Science/Research
 Classifier: Topic :: Scientific/Engineering :: Mathematics
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-License-File: LICENSE
 Requires-Dist: numpy
 Requires-Dist: scipy
 Dynamic: author
@@ -23,7 +22,6 @@ Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license
-Dynamic: license-file
 Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
@@ -39,7 +37,7 @@ Dynamic: summary
   <a href="https://github.com/muhammadalmaskhan/ncpy/issues"><img src="https://img.shields.io/github/issues/muhammadalmaskhan/ncpy.svg" alt="Open Issues"></a>
 </p>
 
-**ncpy** Numerical Computing in Python.
+**`ncpy`** Numerical Computing in Python.
 
 `ncpy` is a compact, educational Python library that implements common numerical methods for quick prototyping and expermentations.  
 Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions for:
