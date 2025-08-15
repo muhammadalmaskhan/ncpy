@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: ncpy
-Version: 0.2.2
+Version: 0.2.3
 Summary: A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.
 Home-page: https://github.com/muhammadalmaskhan/ncpy
 Author: M. Almas
@@ -39,7 +39,7 @@ Dynamic: summary
   <a href="https://github.com/muhammadalmaskhan/ncpy/issues"><img src="https://img.shields.io/github/issues/muhammadalmaskhan/ncpy.svg" alt="Open Issues"></a>
 </p>
 
-**ncpy** — Numerical Computing in Python.
+**ncpy** Numerical Computing in Python.
 
 `ncpy` is a compact, educational Python library that implements common numerical methods for quick prototyping and expermentations.  
 Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions for:
@@ -50,6 +50,7 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 - Numerical integration  
 - Numerical differentiation  
 - Solving linear systems  
+- Best Approximations
 
 ---
 
