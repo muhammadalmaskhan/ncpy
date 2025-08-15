@@ -6,7 +6,7 @@ long_description = (this_dir / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="ncpy",
-    version="0.2.2",
+    version="0.2.3",
     author="M. Almas",
     author_email="mkhan@cs.qau.edu.pk",
     description="A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.",
@@ -17,7 +17,7 @@ setup(
     install_requires=["numpy", "scipy"],
     python_requires=">=3.6",
     license="MIT",
-    license_files=["LICENSE"],
+    license_files="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
