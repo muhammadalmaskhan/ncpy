@@ -3,7 +3,6 @@ MANIFEST.in
 README.md
 pyproject.toml
 setup.py
-ncpy/__init__.py
 ncpy/approximation.py
 ncpy/differentiation.py
 ncpy/integration.py

@@ -9,7 +9,7 @@
   <a href="https://github.com/muhammadalmaskhan/ncpy/issues"><img src="https://img.shields.io/github/issues/muhammadalmaskhan/ncpy.svg" alt="Open Issues"></a>
 </p>
 
-**ncpy** — Numerical Computing in Python.
+**ncpy** Numerical Computing in Python.
 
 `ncpy` is a compact, educational Python library that implements common numerical methods for quick prototyping and expermentations.  
 Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions for:
@@ -20,6 +20,7 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 - Numerical integration  
 - Numerical differentiation  
 - Solving linear systems  
+- Best Approximations
 
 ---
 

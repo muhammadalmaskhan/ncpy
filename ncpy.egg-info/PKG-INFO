@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: ncpy
-Version: 0.2.1
-Summary: A Python package for numerical computing built on top of the numpy and scipy, including root-finding, interpolation, integration, differentiation, and linear system solvers.
+Version: 0.2.2
+Summary: A Python package for numerical computing, including root-finding, interpolation, integration, differentiation, and linear system solvers.
 Home-page: https://github.com/muhammadalmaskhan/ncpy
 Author: M. Almas
 Author-email: mkhan@cs.qau.edu.pk
@@ -72,15 +72,15 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 | **Integration**        | Trapezoidal, Simpson 1/3, Simpson 3/8, Romberg, Gaussian quadrature |
 | **Differentiation**    | Forward, Backward, Central differences, Richardson extrapolation, Numerical gradient |
 | **Linear Systems**     | Gaussian elimination, Gauss–Jordan, LU decomposition, Jacobi, Gauss–Seidel, Conjugate Gradient |
-
+| **Best Approximations**| Least Squares, Gram–Schmidt Orthonormalization |
 ---
 ## Examples
 ---
 
 - Root finding - Newton Raphson
-
-from ncpy import newton_raphson
 ```bash
+from ncpy import newton_raphson
+
 f = lambda x: x**2 - 2
 df = lambda x: 2*x
 
