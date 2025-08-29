@@ -26,10 +26,10 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 
 ## Why use `ncpy`?
 
-✅ **One package, many methods** — no need to import multiple libraries  
-✅ **Lightweight & beginner-friendly** — great for teaching & learning numerical methods  
-✅ **Educational** — functions are implemented clearly for understanding algorithms  
-✅ **Fast enough** — powered by NumPy for efficiency  
+✅ **One package, many methods** : no need to import multiple libraries  
+✅ **Lightweight & beginner-friendly** : great for teaching & learning numerical methods  
+✅ **Educational** : functions are implemented clearly for understanding algorithms  
+✅ **Fast enough** : powered by NumPy for efficiency  
 
 ---
 
