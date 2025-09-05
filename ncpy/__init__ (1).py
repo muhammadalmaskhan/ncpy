@@ -9,7 +9,7 @@ A compact Python library for common numerical methods.
 from .roots import bisection, newton_raphson, secant, fixed_point
 
 # Interpolation methods
-from .interpolation import lagrange_interpolation, newton_divided_diff, linear_interpolation, cubic_spline, neville
+from .interpolation import lagrange_interpolation, newton_divided_diff, linear_interpolation, cubic_spline, hermite_interpolation
 
 # Approximation methods
 from .approximation import polynomial_least_squares, exponential_fit, logarithmic_fit

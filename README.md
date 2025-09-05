@@ -38,7 +38,7 @@ Built on **NumPy** and (optionally) **SciPy**, it offers easy-to-use functions f
 | Category               | Methods |
 |------------------------|---------|
 | **Root-finding**       | Bisection, Newton–Raphson, Secant, Fixed-point iteration |
-| **Interpolation**      | Lagrange, Newton divided differences, Linear, Cubic spline, Neville’s method |
+| **Interpolation**      | Lagrange, Newton divided differences, Linear, Cubic spline, Neville’s method, Hermite Method |
 | **Approximation**      | Polynomial least squares, Exponential fit, Logarithmic fit |
 | **Integration**        | Trapezoidal, Simpson 1/3, Simpson 3/8, Romberg, Gaussian quadrature |
 | **Differentiation**    | Forward, Backward, Central differences, Richardson extrapolation, Numerical gradient |

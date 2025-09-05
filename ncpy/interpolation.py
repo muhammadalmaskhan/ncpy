@@ -97,3 +97,22 @@ def neville(x_points, y_points, x):
         for i in range(n-1, j-1, -1):
             Q[i] = ((x - x_points[i-j])*Q[i] - (x - x_points[i])*Q[i-1]) / (x_points[i] - x_points[i-j])
     return Q[-1]
+
+def hermite_interpolation(x_points, y_points, dy_points):
+    """Return Hermite interpolating polynomial as numpy.poly1d."""
+    N = len(x_points)
+    p = np.poly1d([0.0])
+    for i in range(N):
+        # Construct Lagrange basis polynomial L_i
+        L = np.poly1d([1.0])
+        for j in range(N):
+            if j != i:
+                L *= np.poly1d([1.0/(x_points[i]-x_points[j]), -x_points[j]/(x_points[i]-x_points[j])])
+        # Derivative of L_i
+        dL = np.polyder(L)
+        # Alpha and Beta basis functions
+        alpha = (np.poly1d([1]) - 2*dL(x_points[i]) * np.poly1d([1, -x_points[i]])) * (L**2)
+        beta = np.poly1d([1, -x_points[i]]) * (L**2)
+        # Build Hermite polynomial
+        p += alpha * y_points[i] + beta * dy_points[i]
+    return p
